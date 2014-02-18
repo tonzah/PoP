@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EkaScripti : MonoBehaviour {
+public class Human : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
