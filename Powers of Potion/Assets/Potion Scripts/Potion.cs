@@ -9,6 +9,7 @@ public abstract class Potion : MonoBehaviour {
 	public int heal;
 	public abstract void Apply(SuperPotion spotion); 
 	public Element ele;
-	
+	public Texture2D icon;
+	public string description;
 
 }
