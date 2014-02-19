@@ -1,0 +1,117 @@
+fileFormatVersion: 2
+guid: 19996159465970e448158352b06d80ea
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Untitled-2_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 464
+        width: 198
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Untitled-2_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 440
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Untitled-2_4
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 400
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Untitled-2_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 320
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Untitled-2_6
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 239
+        width: 81
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Untitled-2_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 232
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Untitled-2_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 102
+        width: 52
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Untitled-2_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 100
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
