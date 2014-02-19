@@ -8,5 +8,9 @@ EditorSettings:
   m_SerializationMode: 2
   m_WebSecurityEmulationEnabled: 0
   m_WebSecurityEmulationHostUrl: http://www.mydomain.com/mygame.unity3d
+<<<<<<< HEAD
   m_DefaultBehaviorMode: 1398957399
+=======
+  m_DefaultBehaviorMode: 1
+>>>>>>> mpo
   m_SpritePackerMode: 0
