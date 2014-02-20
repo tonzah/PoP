@@ -7,11 +7,7 @@ public class Firestone : Potion {
 	public Firestone(){
 
 		this.ele = Element.Fire;
-<<<<<<< HEAD
 		this.icon = (Texture2D) Resources.Load("CraftingAssets/tuli.png");
-=======
-		this.icon = (Texture2D) Resources.Load("Kuvat/action-icon-1.png");
->>>>>>> mpo
 		this.description = "Firestone increases damage by 10";
 		}
 
