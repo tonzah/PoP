@@ -3,7 +3,8 @@ guid: 83e4f1e3c09541e4d89c2ace28c21b78
 MonoImporter:
   serializedVersion: 2
   defaultReferences:
-  - unit: {fileID: 100000, guid: 5ced83a8f11fff24d9117133a82ea497, type: 2}
+  - unit: {fileID: 100000, guid: 7b47ebe727b13431bb8644900547f9cd, type: 2}
+  - enemyUnit: {fileID: 100014, guid: 80bc3ab7b9d2c416aa45a040a5aa034b, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

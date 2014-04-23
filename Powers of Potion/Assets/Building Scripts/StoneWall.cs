@@ -17,6 +17,7 @@ public class StoneWall : Building
 		this.hp -= (dmg - 5);
 		isDestroyed ();
 	}
+
 	
 	public override void applyPotionDmg (SuperPotion spotion)
 	{
