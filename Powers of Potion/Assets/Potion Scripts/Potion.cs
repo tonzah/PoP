@@ -11,4 +11,11 @@ public abstract class Potion : MonoBehaviour {
 	public Element ele;
 	public Texture2D icon;
 	public string description;
+	public bool isEquipment;
+
+
+	//Potion GUITtexture variables
+
+	public Vector3 orig_position;
+
 }

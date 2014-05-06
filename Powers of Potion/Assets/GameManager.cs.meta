@@ -2,7 +2,8 @@ fileFormatVersion: 2
 guid: 5f4fe222ff6e6c74eb78904d034b821d
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - fireobj: {fileID: 100000, guid: 7054bde5e7dfe4582b1d3793377fa17a, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

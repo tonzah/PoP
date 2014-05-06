@@ -24,7 +24,7 @@ public class Peasant : Unit
 		public override void AttackTarget (GameObject target)
 		{
 				Debug.Log ("attacking target");
-				this.e_unit = (Peasant)target.GetComponent (typeof(Peasant));
+				this.e_unit = (Unit)target.GetComponent (typeof(Unit));
 				inFight = true;
 				inFighting = true;
 				inMove = false;
@@ -56,8 +56,17 @@ public class Peasant : Unit
 						//			Vector3 fwd = transform.TransformDirection (Vector3.right);
 						Debug.DrawRay (this.transform.position, Vector3.right, Color.green, 2.0f);
 
-						if (Physics.Raycast (transform.position, Vector3.right, out hit, 20.0f) && hit.transform.tag == "Enemy") {
-								AttackTarget (hit.transform.gameObject);
+						if (Physics.Raycast (transform.position, Vector3.right, out hit, 20.0f) && hit.transform.tag == "Enemy" || hit.transform.tag=="EnemyCastle") {
+								if(hit.transform.tag=="Enemy"){
+					AttackTarget (hit.transform.gameObject);
+				}
+				else
+				{
+					GameManager.DamageEnemyKeep();
+					inFight = true;
+					inFighting = true;
+					inMove = false;
+				}
 						}
 				} else if (this.transform.tag == "Enemy") {
 	
@@ -107,18 +116,5 @@ public class Peasant : Unit
 
 		}
 
-		
-
-
-		public void checkIfDead ()
-		{
-				
-				if (this.hp <= 0) {
-						Destroy (this.gameObject);
-						Debug.Log (this.gameObject.name + " kuoli ");
-				}
-		}
-
-	
 
 }

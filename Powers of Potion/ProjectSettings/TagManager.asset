@@ -6,6 +6,10 @@ TagManager:
   - Enemy
   - EnemyBarrack
   - PlayerBarrack
+  - EnemyCastle
+  - PlayerCastle
+  - resource
+  - craftSpawn
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
